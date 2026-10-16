@@ -45,7 +45,7 @@ export default function About() {
       icon: Brain,
       title: 'Problem Solving & Testing',
       description:
-        'Applying structured algorithms, OOPs, and automated Selenium/API testing with NASSCOM 93% Gold accredited standards.',
+        'Applying structured algorithms, OOPs, clean coding practices, and automated testing principles to real-world software.',
       bg: 'bg-emerald-50/60',
       border: 'border-emerald-200/70',
       iconColor: 'text-emerald-600',
@@ -91,7 +91,7 @@ export default function About() {
                 My journey began with deep curiosity for algorithmic structures and web mechanics, evolving through real-world internships at <strong className="text-slate-900 font-semibold">Qube AI Solution</strong>, <strong className="text-slate-900 font-semibold">Tamizhan Skills</strong>, <strong className="text-slate-900 font-semibold">Oasis Infobyte</strong>, and <strong className="text-slate-900 font-semibold">CODSOFT</strong>. I thrive on translating business logic into clean code, whether it involves architecting an end-to-end textile ERP system like <strong className="text-purple-700 font-semibold">TEXMART</strong>, optimizing complex database joins, or crafting smooth micro-interactions.
               </p>
               <p>
-                Beyond standard development, I place high emphasis on engineering rigor, holding a <strong className="text-purple-700 font-semibold">93% Gold Category Certification</strong> in Testing Tools & API Testing from NASSCOM/MeitY and winning <strong className="text-purple-700 font-semibold">1st Prize in Technical Paper Presentation</strong> at CIT College.
+                Beyond standard development, I place high emphasis on engineering rigor, holding verified certifications in <strong className="text-purple-700 font-semibold">Cloud Computing & Python Clean Coding</strong> from Infosys Springboard and winning <strong className="text-purple-700 font-semibold">1st Prize in Technical Paper Presentation</strong> at CIT College.
               </p>
             </div>
 

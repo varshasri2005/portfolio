@@ -115,10 +115,10 @@ export default function Hero() {
 
               <div className="hidden sm:block text-center sm:text-left px-3">
                 <div className="text-xl sm:text-2xl font-extrabold text-[#7c3aed] tracking-tight">
-                  93%
+                  8+
                 </div>
                 <div className="text-[10px] sm:text-[11px] font-medium text-slate-500 mt-0.5">
-                  NASSCOM Gold
+                  Certifications
                 </div>
               </div>
             </div>
@@ -220,15 +220,15 @@ export default function Hero() {
                 </div>
               </div>
 
-              <div className="p-2.5 rounded-xl bg-pink-50/60 border border-pink-100/80">
-                <div className="text-[10px] font-semibold text-pink-700 uppercase tracking-wider">
-                  Accredited
+              <div className="p-2.5 rounded-xl bg-purple-50/60 border border-purple-100/80">
+                <div className="text-[10px] font-semibold text-purple-700 uppercase tracking-wider">
+                  Certifications
                 </div>
                 <div className="text-xs font-bold text-slate-900 mt-0.5">
-                  93% Gold
+                  8+ Verified
                 </div>
                 <div className="text-[10px] text-slate-500">
-                  NASSCOM Cert
+                  Cloud & Full Stack
                 </div>
               </div>
             </div>

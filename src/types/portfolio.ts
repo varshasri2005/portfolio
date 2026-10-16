@@ -56,7 +56,7 @@ export interface Certification {
   grade?: string;
   badgeType: 'gold' | 'elite' | 'standard';
   description: string;
-  category?: 'National & Accredited' | 'Full Stack & Software' | 'Internship Honors' | 'Foundations & Databases';
+  category?: 'Cloud & Specializations' | 'Full Stack & Software' | 'Internship Honors' | 'Foundations & Databases';
   skills?: string[];
   credentialId?: string;
   certificateImage?: string;

@@ -39,7 +39,7 @@ export default function Home() {
         {/* 6. Education (Kongu Engineering College M.Sc., HSC, SSLC) */}
         <Education />
 
-        {/* 7. Certifications & Achievements (NASSCOM Gold 93%, NPTEL Elite 68%, CIT 1st Prize) */}
+        {/* 7. Certifications & Achievements (Infosys Springboard, Full Stack, Internships, CIT 1st Prize) */}
         <Certifications />
 
         {/* 8. Resume Section (PDF Download & View) */}

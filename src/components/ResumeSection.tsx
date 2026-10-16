@@ -15,7 +15,7 @@ export default function ResumeSection() {
     'M.Sc. Software Systems @ Kongu Engineering College (Sem 6 CGPA: 6.80)',
     '4+ Verified Full Stack & Frontend Internships',
     'Enterprise Project: TEXMART Smart Textile Management System',
-    '93% Gold Category Certification in Testing Tools & API Testing (NASSCOM)',
+    'Verified Certifications in Cloud Computing & Python Clean Coding (Infosys Springboard)',
     '1st Prize Winner in Technical Paper Presentation (CIT College)',
   ];
 

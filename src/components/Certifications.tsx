@@ -31,7 +31,7 @@ export default function Certifications() {
 
   const categories = [
     'All',
-    'National & Accredited',
+    'Cloud & Specializations',
     'Full Stack & Software',
     'Internship Honors',
     'Foundations & Databases',
@@ -110,7 +110,7 @@ export default function Certifications() {
             Certifications & <span className="text-purple-600">Achievements</span>
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600">
-            A verified portfolio of 12 national accreditations, software engineering certifications, industry internship honors, and symposium prize research.
+            A verified portfolio of official Infosys Springboard certifications, software engineering specializations, and industry internship honors.
           </p>
 
           {/* Action Row: View All Button + Category Pills */}
@@ -252,19 +252,9 @@ export default function Certifications() {
                   <div>
                     {/* Header Badges */}
                     <div className="flex items-center justify-between gap-2 mb-3">
-                      {isGold ? (
-                        <span className="px-3 py-1 rounded-full text-[11px] font-extrabold tracking-wide bg-amber-50 text-amber-700 border border-amber-200">
-                          🏆 GOLD (93.00%)
-                        </span>
-                      ) : isElite ? (
-                        <span className="px-3 py-1 rounded-full text-[11px] font-extrabold tracking-wide bg-blue-50 text-blue-700 border border-blue-200">
-                          ⭐ ELITE (68.00%)
-                        </span>
-                      ) : (
-                        <span className="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-purple-50 text-purple-700 border border-purple-200">
-                          {cert.grade || 'Verified Credential'}
-                        </span>
-                      )}
+                      <span className="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-purple-50 text-purple-700 border border-purple-200">
+                        {cert.grade || 'Verified Credential'}
+                      </span>
                       <span className="text-xs font-mono text-slate-400 font-semibold">
                         {cert.period}
                       </span>
@@ -344,6 +334,18 @@ export default function Certifications() {
 
               {/* Action Buttons */}
               <div className="flex items-center gap-2 flex-shrink-0">
+                {'verificationUrl' in modalItem && modalItem.verificationUrl && (
+                  <a
+                    href={modalItem.verificationUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-purple-50 hover:bg-purple-100 text-purple-700 text-xs font-semibold border border-purple-200 transition-colors"
+                    title="Verify Authenticity"
+                  >
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
+                    <span>Verify Online</span>
+                  </a>
+                )}
                 {modalItem.certificateImage && (
                   <>
                     <a
