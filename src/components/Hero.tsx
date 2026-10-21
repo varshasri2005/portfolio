@@ -88,10 +88,10 @@ export default function Hero() {
             <div className="bg-[#f5f3ff] border border-purple-200/70 rounded-2xl p-3.5 sm:p-4 grid grid-cols-3 sm:grid-cols-4 gap-2 sm:gap-3 divide-x divide-purple-200/60 shadow-sm">
               <div className="text-center sm:text-left px-2 sm:px-3">
                 <div className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                  15+
+                  10+
                 </div>
                 <div className="text-[10px] sm:text-[11px] font-medium text-slate-500 mt-0.5">
-                  Repositories
+                  Projects
                 </div>
               </div>
 

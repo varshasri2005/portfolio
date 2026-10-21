@@ -40,23 +40,33 @@ export async function POST(request: Request) {
     }
 
     // 2. SMTP Integration
-    const smtpHost = process.env.SMTP_HOST;
+    const smtpHost = process.env.SMTP_HOST || 'smtp.gmail.com';
     const smtpPort = process.env.SMTP_PORT ? parseInt(process.env.SMTP_PORT) : 587;
-    const smtpUser = process.env.SMTP_USER;
-    const smtpPass = process.env.SMTP_PASS;
-    const receiverEmail = process.env.CONTACT_RECEIVER_EMAIL || 'varshasrik.23msc@kongu.edu';
+    const smtpUser = process.env.SMTP_USER || 'varshasrik2005@gmail.com';
+    const smtpPass = process.env.SMTP_PASS?.replace(/\s+/g, '');
+    const receiverEmail = process.env.CONTACT_RECEIVER_EMAIL || 'varshasrik2005@gmail.com';
 
     // If SMTP credentials are provided in .env.local, send the email
-    if (smtpHost && smtpUser && smtpPass) {
-      const transporter = nodemailer.createTransport({
-        host: smtpHost,
-        port: smtpPort,
-        secure: smtpPort === 465,
-        auth: {
-          user: smtpUser,
-          pass: smtpPass,
-        },
-      });
+    if (smtpUser && smtpPass) {
+      const transporter = nodemailer.createTransport(
+        smtpHost.includes('gmail')
+          ? {
+              service: 'gmail',
+              auth: {
+                user: smtpUser,
+                pass: smtpPass,
+              },
+            }
+          : {
+              host: smtpHost,
+              port: smtpPort,
+              secure: smtpPort === 465,
+              auth: {
+                user: smtpUser,
+                pass: smtpPass,
+              },
+            }
+      );
 
       const mailOptions = {
         from: `"${name} (Portfolio Inquiry)" <${smtpUser}>`,
@@ -75,7 +85,7 @@ export async function POST(request: Request) {
               <p style="margin: 0; white-space: pre-wrap;">${message}</p>
             </div>
             <p style="font-size: 11px; color: #94a3b8; margin-top: 20px;">
-              Sent via Varshasri K's Personal Portfolio API route.
+              Sent via Varshasri K's Personal Portfolio API route to ${receiverEmail}.
             </p>
           </div>
         `,
@@ -103,7 +113,7 @@ export async function POST(request: Request) {
         {
           success: true,
           message:
-            'Thank you for reaching out! Your message was received successfully. (Ready for SMTP delivery with .env.local configuration).',
+            'Thank you for reaching out! Your message was received successfully. (Ready for SMTP delivery: Add your Google App Password to SMTP_PASS in .env.local to activate direct Gmail dispatch).',
           isDemoMode: true,
         },
         { status: 200 }
@@ -111,6 +121,16 @@ export async function POST(request: Request) {
     }
   } catch (error: any) {
     console.error('Contact API Error:', error);
+    if (error?.code === 'EAUTH') {
+      return NextResponse.json(
+        {
+          success: false,
+          error:
+            'Gmail authentication failed. Please ensure you have generated a 16-character Google App Password at https://myaccount.google.com/apppasswords and added it to SMTP_PASS in .env.local.',
+        },
+        { status: 500 }
+      );
+    }
     return NextResponse.json(
       {
         success: false,

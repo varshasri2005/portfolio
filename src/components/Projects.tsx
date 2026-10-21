@@ -60,8 +60,8 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* ================= HERO SHOWCASE: TEXMART (If matching filter) ================= */}
-        {featured && (filter === 'All' || filter === 'Full Stack') && (
+        {/* ================= HERO SHOWCASE: FEATURED PROJECT (If matching filter) ================= */}
+        {featured && (filter === 'All' || filter === featured.category) && (
           <div className="mb-16">
             <div className="relative rounded-3xl p-6 sm:p-10 bg-gradient-to-br from-white via-purple-50/50 to-slate-50 border-2 border-purple-200 shadow-[0_15px_40px_rgba(124,58,237,0.08)] overflow-hidden group hover:border-purple-300 transition-all duration-300">
               <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
@@ -70,10 +70,10 @@ export default function Projects() {
                   <div>
                     <div className="flex items-center gap-3 mb-3">
                       <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-purple-100 text-purple-800 border border-purple-200">
-                        ⭐ Flagship Enterprise Project
+                        ⭐ Flagship AI Architecture
                       </span>
                       <span className="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">
-                        Full Stack System
+                        {featured.category}
                       </span>
                     </div>
 
@@ -153,28 +153,28 @@ export default function Projects() {
                     <div className="flex items-center justify-between pb-3 mb-3 border-b border-slate-800 text-xs font-mono text-purple-300">
                       <span className="flex items-center gap-2">
                         <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
-                        texmart_core_api:v2.4
+                        multi_agent_coordinator:v1.2
                       </span>
-                      <span className="text-slate-400 text-[10px]">POSTGRES_CONNECTED</span>
+                      <span className="text-slate-400 text-[10px]">EDGE_ACTIVE</span>
                     </div>
 
                     <div className="space-y-3 font-mono text-[11px] text-slate-300">
                       <div className="p-3 rounded-lg bg-slate-950/70 border border-slate-800">
-                        <div className="text-purple-400 font-bold mb-1">▶ INVENTORY_MODULE</div>
-                        <div className="text-slate-400">Total Fabric Rolls: <span className="text-white font-semibold">1,480 units</span></div>
-                        <div className="text-slate-400">Low Stock Alert: <span className="text-amber-400 font-semibold">Cotton Grey GSM-220</span></div>
+                        <div className="text-purple-400 font-bold mb-1">▶ MULTI_AGENT_ENGINE</div>
+                        <div className="text-slate-400">Autonomous Nodes: <span className="text-white font-semibold">Decentralized Agents</span></div>
+                        <div className="text-slate-400">Clash Resolution: <span className="text-emerald-400 font-semibold">0 Conflicts Detected</span></div>
                       </div>
 
                       <div className="p-3 rounded-lg bg-slate-950/70 border border-slate-800">
-                        <div className="text-blue-400 font-bold mb-1">▶ VENDOR_SUPPLY_CHAIN</div>
-                        <div className="text-slate-400">Active Mill Suppliers: <span className="text-white font-semibold">18 Verified</span></div>
-                        <div className="text-slate-400">Pending Purchase Invoices: <span className="text-emerald-400 font-semibold">4 Dispatches</span></div>
+                        <div className="text-blue-400 font-bold mb-1">▶ RESOURCE_MATRIX</div>
+                        <div className="text-slate-400">Campus Facilities: <span className="text-white font-semibold">Labs & Auditoriums</span></div>
+                        <div className="text-slate-400">Time-slot Optimization: <span className="text-emerald-400 font-semibold">96% Utilization</span></div>
                       </div>
 
                       <div className="p-3 rounded-lg bg-slate-950/70 border border-slate-800">
-                        <div className="text-cyan-400 font-bold mb-1">▶ REST_API_ENDPOINTS</div>
-                        <div className="text-slate-400">GET /api/v1/inventory/summary <span className="text-emerald-400">200 OK (18ms)</span></div>
-                        <div className="text-slate-400">POST /api/v1/orders/dispatch <span className="text-emerald-400">201 CREATED</span></div>
+                        <div className="text-cyan-400 font-bold mb-1">▶ LIVE_PRODUCTION_HOSTING</div>
+                        <div className="text-slate-400">Platform: <span className="text-white font-semibold">Vercel Edge Network</span></div>
+                        <div className="text-slate-400">Deployment Status: <span className="text-emerald-400 font-semibold">Online & Reactive</span></div>
                       </div>
                     </div>
                   </div>

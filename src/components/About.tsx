@@ -88,7 +88,7 @@ export default function About() {
                 {personalInfo.bio}
               </p>
               <p>
-                My journey began with deep curiosity for algorithmic structures and web mechanics, evolving through real-world internships at <strong className="text-slate-900 font-semibold">Qube AI Solution</strong>, <strong className="text-slate-900 font-semibold">Tamizhan Skills</strong>, <strong className="text-slate-900 font-semibold">Oasis Infobyte</strong>, and <strong className="text-slate-900 font-semibold">CODSOFT</strong>. I thrive on translating business logic into clean code, whether it involves architecting an end-to-end textile ERP system like <strong className="text-purple-700 font-semibold">TEXMART</strong>, optimizing complex database joins, or crafting smooth micro-interactions.
+                My journey began with deep curiosity for algorithmic structures and web mechanics, evolving through real-world internships at <strong className="text-slate-900 font-semibold">Qube AI Solution</strong>, <strong className="text-slate-900 font-semibold">Tamizhan Skills</strong>, <strong className="text-slate-900 font-semibold">Oasis Infobyte</strong>, and <strong className="text-slate-900 font-semibold">CODSOFT</strong>. I thrive on translating business logic into clean code, whether it involves architecting autonomous coordination systems like <strong className="text-purple-700 font-semibold">Multi-Agent AI Campus Resource Management</strong>, optimizing complex database joins, or crafting smooth micro-interactions.
               </p>
               <p>
                 Beyond standard development, I place high emphasis on engineering rigor, holding verified certifications in <strong className="text-purple-700 font-semibold">Cloud Computing & Python Clean Coding</strong> from Infosys Springboard and winning <strong className="text-purple-700 font-semibold">1st Prize in Technical Paper Presentation</strong> at CIT College.
@@ -100,7 +100,7 @@ export default function About() {
               {[
                 'Full-Stack Architecture (Next.js & FastAPI)',
                 'Relational Database Structuring (PostgreSQL)',
-                'Automated API & Selenium Quality Testing',
+                'API Testing & Code Quality Assurance',
                 'Clean Code & Agile Sprint Methodologies',
               ].map((strength, index) => (
                 <div key={index} className="flex items-center gap-2 text-xs sm:text-sm text-slate-700">

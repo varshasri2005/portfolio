@@ -17,20 +17,20 @@ Built with **Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS, Framer
 
 2. **About Me**
    - Detailed professional biography highlighting software systems engineering, algorithmic problem solving, and full-stack philosophy.
-   - Stat metric cards: **4+ Internships Completed**, **6.80 CGPA**, **93% Gold NASSCOM Certification**, and **1st Prize Technical Paper Presentation**.
-   - Four core pillars: *Frontend Engineering*, *Backend Systems*, *Relational Databases*, and *Problem Solving & Testing*.
+   - Stat metric cards: **10+ Showcase Projects**, **4+ Internships Completed**, **6.80 CGPA**, and **1st Prize Technical Paper Presentation**.
+   - Four core pillars: *Frontend Engineering*, *Backend Systems*, *Relational Databases*, and *Problem Solving & Code Quality*.
 
 3. **Skills & Proficiencies**
-   - Categorized by **Frontend**, **Backend**, **Databases & Storage**, **Tools & DevOps**, and **Quality & Testing**.
+   - Categorized by **Frontend**, **Backend**, **Databases & Storage**, **Tools & DevOps**, and **Quality & Code Standards**.
    - Interactive category filter tabs with dynamic view switching.
    - Animated skill progress bars with proficiency percentages and contextual badges.
 
 4. **Featured Projects**
-   - **TEXMART – Smart Textile Management System (Flagship)**: Centralized enterprise platform engineered to manage textile manufacturing workflows, multi-warehouse fabric inventories, vendor supply chains, wholesale purchase orders, and dispatch logs.
-   - **Student Result Management System**: Academic examination portal for mark entry, automated GPA computation, and real-time result publishing (Live GitHub: [DEVOPS-PROJECT](https://github.com/varshasri2005/DEVOPS-PROJECT)).
-   - **Sabrimala Finance**: End-to-end financial platform for loan disbursement, monthly EMI repayment schedules, and audit ledgers.
-   - **AgriProcess+ (Agriculture & FoodTech Platform)**: Direct farmer-to-buyer agri-commerce portal eliminating intermediaries with transparent pricing (Live GitHub: [web-technology](https://github.com/varshasri2005/web-technology)).
-   - Interactive **System Architecture Modal** for architectural deep-dives.
+   - **Multi-Agent AI for Campus Resource Management (Flagship)**: Autonomous multi-agent coordination platform engineering facility scheduling, clash-free lab reservations, dynamic room allocations, and live telemetry on Vercel (Live: [multi-agent-ai](https://multi-agent-ai-for-campus-resource.vercel.app) | GitHub: [Multi-Agent-AI-for-Campus-Resource-Management](https://github.com/varshasri2005/Multi-Agent-AI-for-Campus-Resource-Management)).
+   - **Smart Campus Seat & Attendance Management System**: Full-stack campus seating and real-time attendance tracking platform with Python FastAPI backend, React frontend, and automated SMTP notifications (GitHub: [Smart-Campus-Seat-Attendance-Management-System](https://github.com/varshasri2005/Smart-Campus-Seat-Attendance-Management-System)).
+   - **Student Result Management System**: Academic examination portal for mark entry, automated GPA computation, and real-time result publishing (GitHub: [DEVOPS-PROJECT](https://github.com/varshasri2005/DEVOPS-PROJECT)).
+   - **AgriProcess+ (Agriculture & FoodTech Platform)**: Direct farmer-to-buyer agri-commerce portal eliminating intermediaries with transparent pricing (Live: [web-technology](https://web-technology-chi.vercel.app) | GitHub: [web-technology](https://github.com/varshasri2005/web-technology)).
+   - Interactive **System Architecture Modal** for architectural deep-dives across all verified GitHub repositories.
 
 5. **Internship Experience**
    - Modern timeline detailing responsibilities, technologies, and achievements:
@@ -41,16 +41,15 @@ Built with **Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS, Framer
 
 6. **Education Timeline**
    - **M.Sc. Software Systems (5-Year Integrated)**: Kongu Engineering College, Perundurai (2023 – 2028, Sem 6 CGPA: 6.80).
-   - **HSC (Class XII)**: Christhu Jyothi Mat. Hr. Sec. School, Erode (75.0%).
+   - **HSC (Class XII)**: Christhu Jyothi Mat. Hr. Sec. School, Erode (Commerce, Accountancy, Economics & Computer Applications – 75.0%).
    - **SSLC (Class X)**: Christhu Jyothi Mat. Hr. Sec. School, Erode.
 
 7. **Certifications & Accreditations**
-   - **NASSCOM & MeitY Gold Category (93.00%)**: Testing Tools & API Testing (Selenium with Java & Python).
-   - **NPTEL & IIT Kharagpur Elite Grade (68.00%)**: Introduction to Industry 4.0 and Industrial Internet of Things.
-   - **Accenture Verified Credential**: Data Processing and Visualisation.
+   - **Infosys Springboard Verified Credentials**: Cloud Computing, Virtualization and Cloud Computing, Python Clean Coding, and Step-by-Step Machine Learning with Python.
+   - **Internship Honors**: Tamizhan Skills RISE Web Development, Oasis Infobyte AICTE OIB-SIP, CODSOFT Virtual Internship, and CubeAI Solutions Full Stack Engineering.
+   - **Technical Specializations**: Full Stack Web Development (MERN Stack), Relational Database Management with MySQL, C & C++ Programming Specialization, and Web Development Foundations.
    - **1st Prize Winner in Technical Paper Presentation**: CIT College Technical Symposium (Cash Prize ₹3,000).
    - **1st Place in Department-Level Paper Presentation**: Kongu Engineering College.
-   - **Diploma in "C" Programming (DCP - Grade A)**: CSC Computer Software College.
 
 8. **Resume Download & Viewer**
    - Dedicated ATS-friendly curriculum vitae showcase.
@@ -93,7 +92,7 @@ portfolio/
 │   │   ├── Footer.tsx          # Glassmorphic footer with quick links & back-to-top
 │   │   ├── Hero.tsx            # Hero section with 3D developer showcase card
 │   │   ├── Navbar.tsx          # Sticky glassmorphic navbar with active section spy
-│   │   ├── Projects.tsx        # TEXMART showcase, real projects, & architecture modal
+│   │   ├── Projects.tsx        # Flagship showcase, verified GitHub projects, & architecture modal
 │   │   ├── ResumeSection.tsx   # Direct PDF view/download card
 │   │   ├── Skills.tsx          # Categorized skill showcase with filter tabs
 │   │   └── SocialIcons.tsx     # Clean SVG icons for GitHub & LinkedIn

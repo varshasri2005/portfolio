@@ -14,7 +14,7 @@ export default function ResumeSection() {
   const highlights = [
     'M.Sc. Software Systems @ Kongu Engineering College (Sem 6 CGPA: 6.80)',
     '4+ Verified Full Stack & Frontend Internships',
-    'Enterprise Project: TEXMART Smart Textile Management System',
+    'Flagship Project: Multi-Agent AI Campus Resource Management',
     'Verified Certifications in Cloud Computing & Python Clean Coding (Infosys Springboard)',
     '1st Prize Winner in Technical Paper Presentation (CIT College)',
   ];

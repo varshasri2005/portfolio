@@ -6,7 +6,7 @@ export const personalInfo = {
   tagline: 'Building Scalable, Modern Web Applications & Intelligent Systems',
   bio: `I am an ambitious Full Stack Developer and M.Sc. Software Systems student at Kongu Engineering College (Roll No: 23ISR060). With hands-on internship experience across full-stack development, modern frontend architectures, and RESTful API engineering, I bridge clean user experience with solid backend systems. I am passionate about tackling complex computing problems, engineering scalable web products, and continuously pushing the envelope of modern technology.`,
   shortBio: `Proactive M.Sc. Software Systems student with hands-on full-stack internship experience. Specialist in building responsive React & Next.js user interfaces, scalable FastAPI/Node.js backend architectures, and relational database management.`,
-  email: 'varshasrik.23msc@kongu.edu',
+  email: 'varshasrik2005@gmail.com',
   phone: '+91 63796 49766',
   location: 'Erode, Tamil Nadu, India',
   address: '212, Sukkuramaniya Valasu, Veerappanchatram, Erode - 638004',
@@ -18,13 +18,13 @@ export const personalInfo = {
   social: {
     github: 'https://github.com/varshasri2005',
     linkedin: 'https://www.linkedin.com/in/varshasrik/',
-    email: 'mailto:varshasrik.23msc@kongu.edu',
+    email: 'mailto:varshasrik2005@gmail.com',
     phone: 'tel:+916379649766',
   },
   resumePdfPath: '/Varshasri_K_Resume.pdf',
   profilePhotoPath: '/profile_executive_studio.png',
   metrics: [
-    { label: 'GitHub Repositories', value: '15+' },
+    { label: 'Projects Built', value: '10+' },
     { label: 'Internships Completed', value: '4+' },
     { label: 'Technical Certifications', value: '8+' },
     { label: 'Paper Presentation', value: '1st Prize' },
@@ -83,35 +83,17 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: 'testing',
-    name: 'Testing & Quality Engineering',
-    description: 'Industry-standard automation testing tools, API verification, and quality assurance.',
+    name: 'Quality & Code Standards',
+    description: 'API verification, code quality standards, and continuous integration workflows.',
     skills: [
-      { name: 'Selenium Testing', level: 85, tag: 'Web Automation' },
-      { name: 'API Testing & Postman', level: 88, tag: 'REST QA' },
-      { name: 'Clean Coding & Architecture', level: 85, tag: 'Infosys Certified' },
+      { name: 'Postman & API Testing', level: 88, tag: 'REST QA' },
+      { name: 'Python Clean Coding', level: 90, tag: 'Infosys Certified' },
+      { name: 'CI/CD & Cloud Basics', level: 80, tag: 'Deployment Pipelines' },
     ],
   },
 ];
 
 export const projects: Project[] = [
-  {
-    id: 'texmart',
-    title: 'TEXMART',
-    subtitle: 'Smart Textile Management System',
-    description: 'A centralized enterprise management platform engineered to streamline textile production cycles, multi-warehouse fabric inventory, vendor orders, and product dispatching.',
-    longDescription: `TEXMART is a robust, centralized web system designed to resolve inventory discrepancies, supplier lead-time bottlenecks, and order tracking complexity in the textile manufacturing sector. Built with high-speed Next.js and React frontend architecture, coupled with scalable API services and PostgreSQL database storage, it enables real-time fabric stock monitoring, batch dispatch verification, and multi-tier supplier relationship tracking.`,
-    category: 'Full Stack',
-    isFeatured: true,
-    techStack: ['Next.js', 'React.js', 'Tailwind CSS', 'FastAPI', 'Python', 'PostgreSQL', 'Node.js'],
-    features: [
-      'Centralized fabric inventory dashboard with automated minimum stock threshold alerts.',
-      'Comprehensive supplier ledger tracking procurement costs, delivery milestones, and invoices.',
-      'Order fulfillment lifecycle manager with batch dispatch schedules and status tracking.',
-      'Role-based access control for production supervisors, warehouse staff, and management.',
-      'Interactive analytical reports visualizing monthly textile output and material utilization.',
-    ],
-    githubUrl: 'https://github.com/varshasri2005/TEXMART',
-  },
   {
     id: 'multi-agent-ai',
     title: 'Multi-Agent AI for Campus Resource Management',
@@ -119,7 +101,7 @@ export const projects: Project[] = [
     description: 'Multi-agent AI architecture engineered to coordinate university campus facilities, laboratory reservations, dynamic room allocations, and schedule clash resolutions.',
     longDescription: `An intelligent multi-agent platform designed to streamline higher-education resource management. Decentralized autonomous agents negotiate room, lab, and equipment scheduling to prevent double-booking, maximize room utilization, and generate real-time allocation telemetry.`,
     category: 'AI & Automation',
-    isFeatured: false,
+    isFeatured: true,
     techStack: ['JavaScript', 'Multi-Agent Logic', 'HTML5', 'CSS3', 'Vercel Deployment'],
     features: [
       'Autonomous multi-agent negotiation pipeline eliminating scheduling conflicts.',
@@ -278,21 +260,20 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/varshasri2005/Tamizhan-skills',
   },
   {
-    id: 'sabrimala-finance',
-    title: 'Sabrimala Finance',
-    subtitle: 'Financial Management & EMI Calculation Platform',
-    description: 'End-to-end financial platform engineered to manage loan disbursements, generate monthly EMI repayment schedules, maintain audit ledgers, and securely log transaction histories.',
-    longDescription: `A comprehensive financial tracking web tool tailored for small-to-medium lending operations. Provides transparent interest breakdown schedules, overdue alerts, payment disbursement receipts, and tamper-resistant audit logs.`,
-    category: 'Web App',
+    id: 'ds-mini-project',
+    title: 'Campus Event & Student Portal',
+    subtitle: 'Interactive Data Structures Academic Web Application',
+    description: 'Dynamic web solution featuring student registration, event schedules, administrator dashboards, and structured algorithmic data lookups.',
+    longDescription: `Developed as part of data structures and algorithmic application coursework. Features separate views for students and administrative coordinators, modular event detail views, dynamic DOM interactions, and structured record tables.`,
+    category: 'Frontend',
     isFeatured: false,
-    techStack: ['JavaScript', 'HTML5', 'CSS3', 'Financial Algorithms', 'Data Visualization'],
+    techStack: ['JavaScript', 'HTML5', 'CSS3', 'Data Structures', 'DOM APIs'],
     features: [
-      'Dynamic EMI calculator with principal vs. interest breakdown curves.',
-      'Customer profile management and loan eligibility disbursement logs.',
-      'Ledger balance sheet generator with automated debits, credits, and penalties.',
-      'Auditing dashboard designed for quick verification of historical cash flows.',
+      'Role-tailored interfaces for student event exploration and administrative scheduling.',
+      'Dynamic event card rendering and interactive modular registration flows.',
+      'Responsive multi-page navigation structured with vanilla web technologies.',
     ],
-    githubUrl: 'https://github.com/varshasri2005/Sabrimala-Finance',
+    githubUrl: 'https://github.com/varshasri2005/DS-MINI-PROJECT',
   },
 ];
 
@@ -384,7 +365,8 @@ export const education: EducationItem[] = [
     location: 'Veerappanchatram, Erode',
     period: 'Completed in 2023',
     score: 'Aggregate: 75.0%',
-    highlights: 'Strong foundation in Mathematics, Computer Science, and Physics.',
+    highlights: 'Strong foundation in Commerce, Accountancy, Economics, and Computer Applications.',
+    coursework: ['Commerce', 'Accountancy', 'Economics', 'Computer Applications'],
   },
   {
     id: 'sslc',
@@ -501,7 +483,7 @@ export const certifications: Certification[] = [
   {
     id: 'mern-stack',
     title: 'Full Stack Web Development (MERN Stack)',
-    issuer: 'Academic & Technical Specialization (from Official Resume)',
+    issuer: 'Academic & Industry Specialization',
     period: '2025 – 2026',
     grade: 'Certified Specialist',
     badgeType: 'standard',
@@ -512,7 +494,7 @@ export const certifications: Certification[] = [
   {
     id: 'mysql-cert',
     title: 'Relational Database Management with MySQL',
-    issuer: 'Kongu Engineering College & Academic Coursework (from Official Resume)',
+    issuer: 'Kongu Engineering College',
     period: '2024 – 2025',
     grade: 'First Class Proficiency',
     badgeType: 'standard',
@@ -523,7 +505,7 @@ export const certifications: Certification[] = [
   {
     id: 'cpp-cert',
     title: 'C & C++ Programming Specialization',
-    issuer: 'Computer Technology Departmental Curriculum (from Official Resume)',
+    issuer: 'Department of Computer Technology',
     period: '2023 – 2024',
     grade: 'Certified',
     badgeType: 'standard',
@@ -534,7 +516,7 @@ export const certifications: Certification[] = [
   {
     id: 'web-foundations',
     title: 'Web Development Foundations & Frontend Engineering',
-    issuer: 'Academic & Open Web Technical Programs (from Official Resume)',
+    issuer: 'Web Engineering Specialization',
     period: '2024 – 2025',
     grade: 'Advanced Proficiency',
     badgeType: 'standard',

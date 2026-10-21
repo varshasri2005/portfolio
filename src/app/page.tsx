@@ -30,7 +30,7 @@ export default function Home() {
         {/* 3. Skills Section */}
         <Skills />
 
-        {/* 4. Projects Section (TEXMART, Student Result, Sabrimala Finance, AgriProcess+) */}
+        {/* 4. Projects Section (Multi-Agent AI, Smart Campus Seat System, Student Result, AgriProcess+) */}
         <Projects />
 
         {/* 5. Internship Experience (Qube AI / CubeAI Solutions, Tamizhan Skills, Oasis Infobyte, CODSOFT) */}
